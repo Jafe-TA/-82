@@ -1,0 +1,29 @@
+<!--
+
+- Validar si un string contiene 4 números de 3 dígitos cada uno separados por coma.
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+var valor=prompt('Ingrese 4 números de 3 dígitos separados por coma','');
+var patron=/^\d{3}\,\d{3}\,\d{3}\,\d{3}$/;
+if (patron.test(valor))
+    document.write('Tiene el formato');
+else
+    document.write('No tiene el formato');
+</script>
+
+</body>
+</html>
+
+      
+
+
+ 
